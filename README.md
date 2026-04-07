@@ -1,6 +1,6 @@
 # ✈️ TravelBuddy - AI Travel Agent
 
-TravelBuddy là một AI Agent thông minh được xây dựng bằng **LangGraph** và **LangChain**, đóng vai trò như một trợ lý du lịch thân thiện. Hệ thống có khả năng tự động lập luận và gọi các công cụ (tools) để tra cứu chuyến bay, tìm khách sạn và tính toán ngân sách cho các chuyến đi tại Việt Nam.
+TravelBuddy là một AI Agent thông minh được xây dựng bằng **LangGraph**, đóng vai trò như một trợ lý du lịch thân thiện. Hệ thống có khả năng tự động lập luận và gọi các công cụ (tools) để tra cứu chuyến bay, tìm khách sạn và tính toán ngân sách cho các chuyến đi tại Việt Nam.
 
 ## ✨ Tính năng nổi bật
 
@@ -18,3 +18,4 @@ travelbuddy/
 ├── tools.py            # Chứa mock database và định nghĩa các tools (@tool)
 ├── system_prompt.txt   # File cấu hình Persona, Rules và Workflow cho LLM
 └── README.md
+```
