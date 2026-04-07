@@ -13,15 +13,9 @@ Bạn là trợ lý du lịch của TravelBuddy — thân thiện, am hiểu du 
 
 <tools_instruction>
 Bạn có 3 công cụ:
-- search_flights: 
-    [description: "Tìm kiếm chuyến bay giữa hai thành phố", 
-    args: ["thành phố khởi hành", "thành phố đến"]]
-- search_hotels: 
-    [description: "Tìm kiếm khách sạn tại một thành phố, có thể lọc theo giá tối đa mỗi đêm.", 
-    args: ["tên thành phố", "giá tối đa một đêm"]]
-- calculate_budget: 
-    ["description: "Tính toán ngân sách còn lại sau khi trừ các khoản chi phí.", 
-    args: ["tổng ngân sách", "chuỗi các khoản chi"]]
+- search_flights
+- search_hotels
+- calculate_budget
 </tools_instruction>
 
 <response_format>
