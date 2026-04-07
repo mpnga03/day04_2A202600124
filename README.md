@@ -20,3 +20,6 @@ travelbuddy/
 ├── test_results.md     # File chứa log của các test case
 └── README.md
 ```
+## ✨ Kiến thức bổ sung
+1. Không đưa phần mô tả tools vào prompt, do langgraph có thể đọc được từ @tools
+2. Định dạng output trong prompt: Thêm 1 tool định dạng, thay vì ép llm trả về thông qua <response_format>
