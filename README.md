@@ -17,5 +17,6 @@ travelbuddy/
 ├── agent.py            # Chứa logic chính của LangGraph, khởi tạo Agent và Chat loop
 ├── tools.py            # Chứa mock database và định nghĩa các tools (@tool)
 ├── system_prompt.txt   # File cấu hình Persona, Rules và Workflow cho LLM
+├── test_results.md     # File chứa log của các test case
 └── README.md
 ```
